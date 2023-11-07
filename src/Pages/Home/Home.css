@@ -1,0 +1,38 @@
+.HomePage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../src/assets/BACKGROUND.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .HomePage{
+      background-size: cover;
+      background-position: center; 
+    }
+  }
+  
+  .Title-shadow {
+    filter: drop-shadow(3px 3px 50px white); 
+  }
+    
+  .coffee-shadow {
+    filter: drop-shadow(3px 3px 50px white); 
+  }
+  .coffeecup-shadow {
+    filter: drop-shadow(3px 3px 50px black); 
+  }
+  .maker-shadow {
+    filter: drop-shadow(3px 3px 50px black); 
+  }
+ .cafe{
+  filter: drop-shadow(3px 3px 50px white); 
+}
+  
+  
