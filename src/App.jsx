@@ -11,8 +11,8 @@ import Navbar from "./Components/Navbar";
 function App() {
   return (
     <>  
-    <Home/>
-      <BrowserRouter>
+
+    <BrowserRouter basename="/coffeeProject">
         <div className="">
           <Navbar />
           <Routes>
