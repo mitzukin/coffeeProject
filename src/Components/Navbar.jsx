@@ -13,12 +13,12 @@ const Navbar = () => {
 
   return (
     <div className="fixed top-0 z-50 w-full ">
-      <div className="p-3 blur-20 font-Roboto bg-white bg-opacity-10">
+      <div className="p-3 bg-white blur-20 font-Roboto bg-opacity-20">
         <nav className="flex flex-col items-center justify-between mx-0 md:mx-12 md:flex-row text-md">
-        <Link to="/" className="hover:scale-110 duration-300">
+        <Link to="/" className="duration-300 hover:scale-110">
           <div className="flex items-center " data-aos="zoom-in-up" data-aos-duration="2000">
             <SiBuymeacoffee size={20} color="#fca311"/>
-            <h1 className="ml-2 text-navtext font-Roboto text-sm font-semibold ">COFT</h1>
+            <h1 className="ml-2 text-sm font-semibold text-navtext font-Roboto ">COFT</h1>
           </div>
           </Link>
 
@@ -44,7 +44,7 @@ const Navbar = () => {
               data-aos="fade-down"
               data-aos-duration="300"
             >
-              <ul className="flex items-center gap-4 py-5 bg-navtext bg-opacity-90 rounded px-96 text-title font-Roboto  md:mt-0 " data-aos="zoom-in-up" data-aos-duration="2000">
+              <ul className="flex items-center gap-4 py-5 rounded bg-navtext bg-opacity-90 px-96 text-title font-Roboto md:mt-0 " data-aos="zoom-in-up" data-aos-duration="2000">
                 <li>
                   <Link to="/">Home</Link>
                 </li>
@@ -64,26 +64,26 @@ const Navbar = () => {
             </div>
           )}
           <div className="hidden md:block">
-            <ul className="flex items-center gap-4 mt-2 text-navtext md:mt-0 text-sm font-Roboto " data-aos="zoom-in-down" data-aos-duration="2000">
-              <li className="hover:scale-110 duration-300 ">
+            <ul className="flex items-center gap-4 mt-2 text-sm text-navtext md:mt-0 font-Roboto " data-aos="zoom-in-down" data-aos-duration="2000">
+              <li className="duration-300 hover:scale-110 ">
                 <Link to="/" >HOME</Link>
               </li>
-              <li className="hover:scale-110 duration-300">
+              <li className="duration-300 hover:scale-110">
                 <Link to="/about">ABOUT</Link>
               </li>
-              <li className="hover:scale-110 duration-300">
+              <li className="duration-300 hover:scale-110">
                 <Link to="/service">SERVICE</Link>
               </li>
-              <li className="hover:scale-110 duration-300">
+              <li className="duration-300 hover:scale-110">
                 <Link to="/menu">MENU</Link>
               </li>
-              <li className="hover:scale-110 duration-300">
+              <li className="duration-300 hover:scale-110">
                 <Link to="/contact">CONTACT</Link>
               </li>
             </ul>
           </div>
-          <div className="hover:scale-110 duration-300">
-          <Link className="bg-navtext px-3 py-2 rounded hidden md:block " data-aos="zoom-in-right" data-aos-duration="2000">
+          <div className="duration-300 hover:scale-110">
+          <Link className="hidden px-3 py-2 rounded bg-navtext md:block " data-aos="zoom-in-right" data-aos-duration="2000">
             <div className="flex gap-2 ">
           <button className="text-xs">Cafe Order</button> 
           <AiOutlineShoppingCart />
