@@ -10,7 +10,8 @@ import Navbar from "./Components/Navbar";
 
 function App() {
   return (
-    <>
+    <>  
+    <Home/>
       <BrowserRouter>
         <div className="">
           <Navbar />

@@ -161,8 +161,8 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="relative">
-        <div className="flex flex-col justify-center items-center font-Roboto mt-10">
+      <section className="relative pb-56">
+        <div className="flex flex-col justify-center items-center font-Roboto mt-10 ">
           <p className="text-navtext mb-2">Café Harmony</p>
           <h1 className="text-4xl font-semibold font-Roboto">COFFEE BLEND</h1>
           <p className="text-sm mb-10 font-Roboto">
