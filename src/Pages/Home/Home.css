@@ -4,7 +4,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../src/assets/BackgroundHome.png');
+    background-image: url('../../assets/Homeback.png');
     background-size: cover;
     background-repeat: no-repeat;
     z-index: -1;
