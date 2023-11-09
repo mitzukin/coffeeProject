@@ -13,17 +13,17 @@ const Navbar = () => {
 
   return (
     <div className="fixed top-0 z-50 w-full ">
-      <div className="p-3 bg-white blur-20 font-Roboto bg-opacity-20">
+      <div className="p-5 bg-black font-Roboto bg-opacity-60">
         <nav className="flex flex-col items-center justify-between mx-0 md:mx-12 md:flex-row text-md">
         <Link to="/" className="duration-300 hover:scale-110">
-          <div className="flex items-center " data-aos="zoom-in-up" data-aos-duration="2000">
+          <div className="flex items-center " data-aos="zoom-in-up" data-aos-duration="500">
             <SiBuymeacoffee size={20} color="#fca311"/>
             <h1 className="ml-2 text-sm font-semibold text-navtext font-Roboto ">COFT</h1>
           </div>
           </Link>
 
           <div
-            className="fixed flex justify-center p-3 rounded-md top-2 right-2 align-center text-custom-blue md:hidden"
+            className="fixed flex items-center justify-center p-3 rounded-md top-2 right-2 align-center text-custom-blue md:hidden"
             onClick={() => {
               setTimeout(navToggle, 300);
             }}
@@ -41,10 +41,10 @@ const Navbar = () => {
           {isNavOpen && (
             <div
               className="absolute flex justify-center w-screen h-20 p-3 mt-6 md:hidden font-Roboto "
-              data-aos="fade-down"
-              data-aos-duration="300"
+              data-aos="fade-in"
+              data-aos-duration="500"
             >
-              <ul className="flex items-center gap-4 py-5 rounded bg-navtext bg-opacity-90 px-96 text-title font-Roboto md:mt-0 " data-aos="zoom-in-up" data-aos-duration="2000">
+              <ul className="flex items-center gap-4 py-5 text-sm rounded bg-navtext bg-opacity-90 px-96 text-title font-Roboto md:mt-0 " data-aos="zoom-in" data-aos-duration="500">
                 <li>
                   <Link to="/">Home</Link>
                 </li>
@@ -64,20 +64,20 @@ const Navbar = () => {
             </div>
           )}
           <div className="hidden md:block">
-            <ul className="flex items-center gap-4 mt-2 text-sm text-navtext md:mt-0 font-Roboto " data-aos="zoom-in-down" data-aos-duration="2000">
-              <li className="duration-300 hover:scale-110 ">
+            <ul className="flex items-center gap-4 mt-2 text-sm text-navtext md:mt-0 font-Roboto " data-aos="zoom-in" data-aos-duration="1000">
+              <li className="duration-500 hover:scale-110 ">
                 <Link to="/" >HOME</Link>
               </li>
-              <li className="duration-300 hover:scale-110">
+              <li className="duration-500 hover:scale-110">
                 <Link to="/about">ABOUT</Link>
               </li>
-              <li className="duration-300 hover:scale-110">
+              <li className="duration-500 hover:scale-110">
                 <Link to="/service">SERVICE</Link>
               </li>
-              <li className="duration-300 hover:scale-110">
+              <li className="duration-500 hover:scale-110">
                 <Link to="/menu">MENU</Link>
               </li>
-              <li className="duration-300 hover:scale-110">
+              <li className="duration-500 hover:scale-110">
                 <Link to="/contact">CONTACT</Link>
               </li>
             </ul>
